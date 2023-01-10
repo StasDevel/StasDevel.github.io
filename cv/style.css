@@ -1,0 +1,253 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'OpenSans';
+    margin: 0; 
+    padding: 0;
+}
+
+.containerHeader, .containerMain, .containerFooter {
+    max-width: 90%;
+}
+
+.header, .footer{
+    background-color: #242424;
+}
+
+.containerHeader {
+    margin: 0 auto;
+}
+
+.containerHeader > div {
+    margin: 0 auto;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1180px;
+}
+
+.infoMe, .photoMe {
+    width: 50%;
+}
+
+.photoMe {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+ 
+.photoMe img {
+    height: 600px;
+    width: auto;
+    box-shadow: 20px 15px 0 #f06800;;    
+}
+
+.infoMe h1 {
+     font-size: 3.5rem;
+     color: #ffff;
+     margin-top: 0px;
+}
+ 
+.infoMe h2 {
+    color: #f06800;
+    text-transform: uppercase;
+    font-size: 32px;
+}
+
+.infoMe a, .infoMe p {
+    font-size: 1.8rem;
+    color: #f06800;    
+    margin: 0;
+}
+
+.googleImg, .telImg, .disImg {
+    display: flex;
+    align-items: center;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+}
+
+.containerMain {
+    margin: 0 auto;
+    padding: 90px 0;
+}
+
+.description {
+    font-size: 1.3rem;
+    width: 60px;
+    height: 250px;
+    background-color: #242424;
+    color: #ffff;
+    writing-mode: vertical-rl;
+    transform: scale(-1);
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.point {
+    border-right: 4px solid #f06800;
+    max-width: 1180px;
+    margin: 40px 0;
+}
+
+.descriptionText {
+    padding-left: 20px;
+    height: 250px;
+    width: 80%;
+    background-color: #d4d4d4;
+    margin-right: 30px;
+    font-size: 2rem;
+    line-height: 1.5;
+    display: flex;
+    align-items: center;
+}
+
+.descriptionText span {
+    font-weight: bold;
+}
+
+li:hover {
+    text-decoration: underline;
+    user-select: none;
+    text-decoration-color: #f06800;
+}
+
+.containerFooter {
+    margin: 0 auto;
+    max-width: 1180px;
+    display: flex;
+    justify-content: center;   
+    font-size: 2rem;
+    color: #fff;
+}
+
+.gitImg {
+    width: 60px;
+    height: auto;
+    color: #fff;
+}
+
+.myGit {
+    color: #f06800;
+    text-decoration: none;
+}
+
+.point {
+    display: flex;
+    justify-content: space-between;
+}
+
+.point.example .description, .point.example .descriptionText{
+    height: 450px;
+}
+
+.point.example .descriptionText{
+    padding: 0;
+    position: relative;
+    overflow: hidden;
+}
+
+.point.example .pictures{
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: nowrap;
+    transition: 2s;
+    left: 0px;
+}
+
+
+.examplesWork {
+    height: 450px;
+}
+
+
+.button.Left, .button.Right {
+    user-select: none;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    width: 40px;
+    background-color:#FFFFFF;
+    opacity: 0.8;
+    height: 100%;
+    position: absolute;
+    z-index: 10;
+}
+
+.button.Left {
+    left: 0;
+}
+
+.button.Right {
+    right: 0;
+}
+
+.modal.show {
+    display: block;
+}
+
+.modal {
+    display: none;
+    background-color: rgb(0%, 0%, 0%, 0.4);
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 100;
+}
+
+.modalDialog {
+    margin: 10% auto;
+    width: 800px;
+    height: 500px;
+    border-radius: 20px;
+    color:#FFFFFF;
+    background-color:#f06800;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding: 35px;
+}
+
+.modalDialog__button {
+    margin-top: 50px;
+}
+
+.modalDialog__text h2 {
+    font-size: 32px;
+}
+
+.modalDialog__text p {
+    font-size: 25px;
+}
+
+.modalDialog__button {
+    appearance: none;
+    border: 0;
+    border-radius: 15px;
+    background:#242424;
+    color: #fff;
+    padding: 8px 16px;
+    font-size: 16px;
+    width: 150px;
+    height: 50px;
+}
+
+.modalDialog__button:hover {
+    background:#5a5858;
+}
+
+.modalDialog__button:active {
+    box-shadow: 0 0 0 4px #020202;
+}

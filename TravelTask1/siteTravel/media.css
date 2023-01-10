@@ -1,0 +1,801 @@
+@media (min-width: 320px) and (max-width: 420px)  {
+
+   body {
+    overflow-x: hidden;
+    position: relative;
+   }
+    
+    header {
+        display: none;
+    }
+    
+    header, main, footer {
+        max-width: 420px;
+      }
+
+    .invisiobleExplore-part {
+        display: block;
+    }
+
+    main {
+        position: relative;
+        overflow: hidden;
+    }
+
+    .preview {
+        height: 250px;
+        padding-top: 20px;
+        margin-top: 0;
+        border-top-left-radius: 30px;
+        border-top-right-radius: 30px;
+        margin-bottom: 20px;
+    }
+
+    .explore-part {
+        display: none;
+    }
+
+    .logo_burger {
+        display: flex;
+        margin: 30px 16px 65px;
+        justify-content: space-between;
+        align-items: center;
+        max-height: 30px;
+    }
+
+    .burger_container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+    #burger {
+        margin: 0;
+        width: 35px;
+        height: 32px;
+    }
+
+    .icon-burger {
+        width: 35px;
+        height: 32px;
+    }
+
+    .searchToDo {
+        max-width: 390px;
+        height: 48px; 
+        margin: 0 16px;  
+        padding-left: 16.5px;
+        padding-right: 9px;
+    }
+    
+    .likeDoing {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 17px;
+    }
+
+    .searchToDo button {
+        
+        width: 92px;
+        height: 30px;
+        font-weight: 500;
+        font-size: 10px;
+        line-height: 15px;
+    }
+
+
+
+
+    .stepsHeader {
+        margin-bottom: 20px;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 19px;
+    }
+
+    .steps {
+        margin: 0 15px 20px;
+      }
+    
+    .stepsSmall img {
+        margin: 0 0 19px;
+        height: 70px;
+        width: 70px;
+    }
+
+    .stepsSmall {
+        font-weight: 400;
+        font-size: 10px;
+        line-height: 12px;
+      }
+
+    .stepsSmall:nth-child(2) {
+        align-items: center;
+    }
+    
+    .stepsSmall:last-child, .stepsSmall:first-child {
+        max-width: 90px;
+    }
+
+    .stepsSmall:last-child img{
+        margin-left: auto;
+    }
+
+    .stepsSmall:first-child p {
+        text-align: start;
+    }
+
+    .stepsSmall:last-child p {
+        text-align: end;
+    }
+
+      .stepsSmall p {
+        margin: 0;
+      }
+
+
+    .blockStepsSmall {
+        width: 100%;
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        
+      }
+
+
+
+
+      .destinations {
+        margin-bottom: 20px;
+      }
+
+      .destinations h2 {
+        font-size: 14px;
+        line-height: 19px;
+        font-weight: 500;
+        margin: 0 0 20px;
+      }
+
+      .carousel {
+        display: flex;
+        height: auto;
+        overflow: hidden;
+      }
+
+     
+      
+      .arrows_small button {
+        width: 40px;
+        height: auto;
+      }
+
+      .slider {
+        height: 210px;
+        margin: 0 auto;
+        width: 400px;
+    
+      }
+
+      .slider img {
+        max-width: 390px;
+        height: 210px;
+        border-radius: 16px;
+        margin: 0 15px 0;
+      }
+
+      .slider div p {
+        margin: 0;;
+        top: 8px;
+        left: 30px;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 26px;
+        
+      }
+
+      .radio {
+        
+        margin: 0;
+        margin-bottom: -10px;
+        position: relative;
+        z-index: 1;
+        top: -24px
+      }
+      
+
+      .radio_elem {
+        width: 8px;
+        height: 8px;
+        margin-top: 8px;
+       }
+
+       .spanRadio::before {
+        width: 8px;
+        height: 8px;
+    }
+    
+    .spanRadioOn1::before {
+        width: 8px;
+        height: 8px;
+    } 
+
+    .button {
+        
+        width: 92px;
+        height: 30px;
+        font-weight: 500;
+        font-size: 10px;
+        line-height: 15px;
+        margin: 0 auto;
+        
+    }
+
+    .button img {
+        height: 10px;
+        width: auto;
+        padding-right: 6px;
+    }
+
+
+    #poww1{
+        fill-opacity: 1;
+    }
+
+    #poww2{
+        fill-opacity: 0.5;
+    }
+
+    .carousel {
+        position: relative;
+      
+    }
+    .arrows_small {
+        display: flex;
+        width: calc(100% - 40px);
+        align-content: center;
+        justify-content: space-between;
+        position: absolute;
+        z-index: 20;
+        top:50%;
+        left:50%;
+        transform:translate(-50%, -50%);
+        height: 30px;
+
+    }
+
+    .btScrollL, .btScrollR {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        z-index: 20;
+        border: 0;
+        background: transparent;
+        
+      }
+      
+      .btScrollL:hover, .btScrollR:hover {
+        background: transparent;
+      }
+    
+      .btScrollL:active, .btScrollR:active { 
+        box-shadow: none;
+    }
+
+
+
+
+
+
+    .stories {
+        max-width: 420px;
+    }
+
+    .stories .button {
+        margin: 10px 0 13px;
+    }
+
+    .stories h2 {
+        font-size: 14px;
+        line-height: 19px;
+        margin: 0 0 10px;
+    }
+
+    .blockStory {
+        margin: 15px 15px 0;
+    }
+
+    .blockStory img {
+        max-width: 155px;
+        max-height: 130px;
+        margin-right: 10px;
+      }
+
+    .nameOfStory {
+        font-weight: 700;
+        font-size: 11px;
+        line-height: 13px;
+        margin: 5px 0 10px;
+    }
+
+    .textPar {
+        max-width: 195px;
+        max-height: 102px;
+        font-weight: 400;
+        font-size: 9px;
+        line-height: 11px;
+        display: -webkit-box;
+        -webkit-line-clamp: 8;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+    }
+
+
+    footer {
+        height: 0px;
+    }
+    .ref_Text {
+        display: flex;
+    }
+
+    .refsOnGit {
+        margin: 0 auto;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .ref_Text a{
+        font-size: 9px;  
+        line-height: 11px;     
+    }
+
+    .footerText {
+        display: none;
+    }
+    
+    .storiesDescriptrion {
+        padding-bottom: 60px;
+        border-bottom-left-radius: 30px;
+        border-bottom-right-radius: 30px;
+      }
+
+    .footerContainer {
+        padding: 0;
+        margin: 0 auto;
+        max-width: 420px; 
+        top: -60px;
+    }
+
+
+    .footerImg {
+        display: none;
+        
+        
+    }
+
+    .footerImg li:not(:last-child) {
+        margin-right: 20px;
+    }
+
+    .footerImg li img{
+        width: 30px;
+        height: auto;
+    }
+
+    .burger_menu {
+        display: block;
+        position: absolute;
+        z-index: 100;
+        width: 165px;
+        height: 250px;
+        background: #F2785C;
+        box-shadow: 0px 4px 3px rgba(13, 96, 111, 0.25);
+        border-radius: 10px;
+        top: 0px;
+        right: -165px;
+        transition: all ease 300ms;
+        transition-delay: 0s;
+      }
+
+
+    .burger_menu button {
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        width: 30px;
+        border: 0;
+        background: transparent;
+        margin: 8px 0 6px 8px;
+      }
+      
+      .burger_menu button {
+        background: transparent;
+      }
+    
+      .burger_menu button { 
+        box-shadow: none;
+    }
+
+    .burger_menu ul {
+        margin: 0 15px 0 0;
+        padding-left: 0;
+        display: flex;
+        flex-direction: column;
+        list-style-type: none;
+        align-items: flex-end;
+        justify-content: center;
+    }
+
+    .burger_menu ul li {
+        margin-bottom: 10px;
+        font-family: 'Red Hat Text';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 21px;
+        
+    }
+
+    .burger_menu ul li a {
+        text-decoration: none;
+        color: #FFFFFF;
+    }
+
+
+    .backColor_burger {
+        background-color: rgb(0%, 0%, 0%, 0.4);
+        position: absolute;
+        width: 420px;
+        height: 100%;
+        top:50%;
+        left:50%;
+        transform:translate(-50%, -50%);
+        z-index: 2;
+        border-radius: 30px;
+    }
+
+
+/* Окно регистрации */
+    .popUp {
+        background: linear-gradient(177.09deg, #FFFFFF 6.15%, #0D606F 202.69%);
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 16px;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        width: 390px;
+        height: auto;
+        position: absolute;
+        top: -600px;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%);
+        z-index: 30;
+        transition: all ease 700ms;
+        transition-delay: 0s;
+      }
+      
+      .popUp.Show {
+        background: linear-gradient(177.09deg, #FFFFFF 6.15%, #0D606F 202.69%);
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 16px;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        width: 390px;
+        height: auto;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%);
+        z-index: 30;
+      }
+      
+      .popUp.Show.none {
+        display: none;
+      }
+
+      .popUpContainer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 390px;
+        text-align: center;
+        
+      }
+      
+      .nameOfLogin {
+        color:#0D606F;
+        font-family: 'Aleo';
+        font-weight: 700;
+        font-size: 32px;
+        margin: 0;
+      }
+      
+      .facebookButton {
+        background-color: #1877F2;
+        width: 90%;
+        height: 56px;
+        border-radius: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        box-shadow: 0 2px rgba(13, 96, 111, 0.16);
+        user-select: none;
+        margin: 0 auto;
+        margin-top: 30px;
+      }
+      
+      .textfacebookButton {
+        margin-left: 15px;
+        font-family: 'Red Hat Text';
+        font-size: 20px;
+        line-height: 26px;
+        line-height: 100%;
+        color: #fff;
+        font-style: normal;
+        font-weight: 400;
+      }
+      
+      .googleButton {
+        background-color: #FFFF;
+        width: 90%;
+        height: 56px;
+        border-radius: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        box-shadow: 0 2px rgba(13, 96, 111, 0.16);
+         
+        user-select: none;
+        margin: 0 auto;
+        margin-top: 20px;
+      }
+      
+      .textgoogleButton {
+        color: #0D606F;
+        font-family: 'Red Hat Text';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        margin-left: 15px;
+      }
+      
+      
+      .orContainer {
+        width: 90%;
+        margin-top: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+      }
+      
+      .wordOr {
+        margin: 0 9px 0;
+        font-family: 'Aleo';
+        font-style: Bold;
+        font-size: 20px;
+        color: rgba(13, 96, 111, 0.5);
+      }
+      
+      .orContainer div {
+        width: 100%;
+        
+      }
+      
+      .inputContainer {
+       text-align: left;
+       width: 90%;
+       margin: 0 auto;
+      }
+      
+      .inputContainer p {
+        color: #0D606F;
+        font-family: 'Aleo';
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+      }
+      
+      .inputContainer p:first-of-type {
+        margin: 10px 0 5px;
+      }
+      
+      .inputContainer p {
+        margin: 20px 0 5px;
+      }
+      
+      .inputContainer input {
+        width: 100%;
+        height: 54px;
+        border-radius: 10px;
+        outline:none;
+        font-size: 24px;
+        border: none;
+      }
+      
+      .buttonPop {
+          border: none;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          width: 90%;
+          height: 54px;
+          background: #0d606f;
+          box-shadow: 0px 2px rgba(13, 96, 111, 0.16), 
+          0px 0px rgba(13, 96, 111, 0.08);
+          border-radius: 10px;
+          font-family: "Red Hat Text";
+          font-weight: 400;
+          font-size: 20px;
+          line-height: 26px;
+          color: #ffffff;
+          margin: 0 auto;
+          margin-top: 25px;
+          margin-bottom: 10px;
+      }
+      
+      .forgotPass {
+        font-family: 'Aleo';
+        font-weight: 700;
+        font-size: 15px;
+        color: #0d606f;
+      }
+      
+      .bottomText {
+        font-family: 'Aleo';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 15px;
+        line-height: 18px;
+        color: rgba(13, 96, 111, 0.5);
+        margin: 20px 0 0;
+      }
+      
+      .registerLink {
+        font-family: 'Aleo';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 15px;
+        color: #0D606F;
+      }
+      
+      hr {
+        border: 1px solid rgba(13, 96, 111, 0.5);
+      }
+      
+      .backColor_login {
+        background-color: rgb(0%, 0%, 0%, 0.4);
+        position: fixed;
+        width: 1440px;
+        height: 100%;
+        top:50%;
+        left:50%;
+        transform:translate(-50%, -50%);
+        z-index: 5;
+      }
+
+      /* Окно входа */
+
+    .popUp2{
+    background: linear-gradient(177.09deg, #FFFFFF 6.15%, #0D606F 202.69%);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 390px;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    z-index: 30;
+    transition: all ease 700ms;
+    transition-delay: 0s;
+    display: none;
+  }
+  
+  
+  .popUp2.Show2 {
+    display: flex;
+  }
+  
+
+  .nameOfLogin2 {
+    color:#0D606F;
+    font-family: 'Aleo';
+    font-weight: 700;
+    font-size: 32px;
+    margin: 0;
+  }
+  
+  .inputContainer2 {
+   text-align: left;
+  }
+  
+  .inputContainer2 p {
+    color: #0D606F;
+    font-family: 'Aleo';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+  }
+  
+  .inputContainer2 p:first-of-type {
+    margin: 30px 0 5px;
+  }
+  
+  .inputContainer2 p {
+    margin: 20px 0 5px;
+  }
+  
+  .inputContainer2 input {
+    width: 100%;
+    height: 54px;
+    border-radius: 10px;
+    outline:none;
+    font-size: 24px;
+    border: none;
+  }
+  
+  .buttonPop2 {
+      border: none;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      height: 54px;
+      background: #0d606f;
+      box-shadow: 0px 2px rgba(13, 96, 111, 0.16), 
+      0px 0px rgba(13, 96, 111, 0.08);
+      border-radius: 10px;
+      font-family: "Red Hat Text";
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 26px;
+      color: #ffffff;
+      margin-top: 25px;
+      margin-bottom: 10px;
+  }
+  
+  .bottomText2 {
+    font-family: 'Aleo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18px;
+    color: rgba(13, 96, 111, 0.5);
+    margin: 0;
+  }
+  
+  .registerLink2 {
+    font-family: 'Aleo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    color: #0D606F;
+  }
+  
+  hr {
+    border: 1px solid rgba(13, 96, 111, 0.5);
+  }
+  
+  .backColor_login {
+    background-color: rgb(0%, 0%, 0%, 0.4);
+    position: fixed;
+    width: 1440px;
+    height: 100%;
+    top:50%;
+    left:50%;
+    transform:translate(-50%, -50%);
+    z-index: 5;
+  }
+
+
+}
+
+
